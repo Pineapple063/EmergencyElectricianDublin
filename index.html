@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Emergency Electrician Dublin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="top-bar">
+    <div class="container top-bar-inner">
+        <a href="index.html">
+            <div class="logo">
+                <img src="static/logo-1024.png" alt="Emergency Electrician Dublin Logo">
+            </div>
+        </a>
+        <nav class="nav">
+            <a href="./">Home</a>
+            <a href="services">Services</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-overlay-home"></div>
+    <div class="container hero-inner">
+        <div class="hero-text">
+
+            <h1 class="newsreader-300 serif">Fast & Reliable Emergency<br>Electricians in Dublin</h1>
+            <p class="hero-sub">
+                Rapid Response for Domestic &amp; Commercial Faults<br>
+                RECI / Safe Electric Registered – Fully Insured
+            </p>
+
+            <div class="hero-actions">
+                <a href="tel:+353870000000" class="btn btn-call large"><i class="fa-solid fa-phone"></i> Call Now</a>
+                <a href="https://wa.me/353870000000" class="btn btn-whatsapp large"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            </div>
+
+            <ul class="trust-list">
+                <li><strong>Rapid Response</strong> to all areas of Dublin</li>
+                <li><strong>RECI / Safe Electric Registered</strong> &amp; fully insured</li>
+                <li>Expert fault finding and immediate power restoration</li>
+                <li>Safe, permanent repairs with certification provided</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <svg class="hidden">
+        <filter id='roughpaper' >
+            <feTurbulence type="fractalNoise" baseFrequency='0.8' result='noise' numOctaves="3" />
+            <feDiffuseLighting in='noise' lighting-color='#f1f1f1' surfaceScale='0.6'>
+                <feDistantLight azimuth='42' elevation='50' />
+            </feDiffuseLighting>
+        </filter>
+    </svg>
+
+    <div class="container services-title-container">
+        <h2 class="services-title newsreader-400">Our Emergency &amp; Core Services</h2>
+    </div>
+    
+    <div class="container services-grid">
+        <div class="service-card highlight">
+            <h3><i class="fa-solid fa-triangle-exclamation"></i> Emergency Call-Outs</h3>
+            <ul>
+                <li>Immediate dispatch when you need us most</li>
+                <li>Make-safe protocols &amp; permanent repairs</li>
+                <li>No temporary or unsafe fixes</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <h3><i class="fa-solid fa-house"></i> Urgent Domestic Electrical</h3>
+            <ul>
+                <li>Tripping fuse boards &amp; power loss</li>
+                <li>Burnt out sockets &amp; faulty wiring</li>
+                <li>Fast electrical fault finding &amp; repairs</li>
+            </ul>
+        </div>
+
+        <div class="service-card">
+            <h3><i class="fa-solid fa-building"></i> Commercial Emergencies</h3>
+            <ul>
+                <li>Minimising business downtime</li>
+                <li>Urgent lighting &amp; power restoration</li>
+                <li>Safety checks &amp; electrical compliance</li>
+            </ul>
+        </div>
+
+        
+    </div>
+    
+    <div class="electric-logos-container">
+        <img class="safe-electric-logo" src="static/safe-electric.jpg" alt="Safe Electric Logo">
+        <img class="reci-logo" src="static/reci-logo.png" alt="RECI Logo">
+    </div>
+</section>
+
+<section class="why">
+    <img src="static/tools.jpg" alt="Electrician Tools">
+    <div class="container">
+        <h2 class="newsreader-500">Why Choose Us?</h2>
+        <ul class="why-list">
+            <li>Fast, reliable dispatch when you have a critical electrical emergency</li>
+            <li>No shortcuts. We do the job safely and properly – the first time</li>
+            <li>Clear, upfront communication on arrival times and pricing</li>
+            <li>Trusted across Dublin, fully RECI registered, and comprehensively insured</li>
+        </ul>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container cta-inner">
+        <a href="tel:+353870000000" class="btn btn-call large">
+            <i class="fa-solid fa-phone"></i> Call Us
+        </a>
+        <a href="https://wa.me/353870000000" class="btn btn-whatsapp large">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+</section>
+
+<div id="fullscreen-spinner" class="fixed loading-spinner-container spinner show">
+    <div class="spinner-border show-spinner" role="status">
+        <span hidden>Loading...</span>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <span>Serving Dublin &amp; Surrounding Areas</span>
+        <span>Emergency Electrician Dublin · Fully Insured</span>
+    </div>
+    <div class="container footer-inner footer-links">
+        <a href="privacy-policy">Privacy Policy</a>
+        <a href="terms-conditions">Terms &amp; Conditions</a>
+    </div>
+    <div class="container footer-business-details">
+        <div class="footer-inner">
+            <span>CRO No: 781778</span>
+            <span class="footer-contact"><a href="tel:+353870000000">+353 87 000 0000</a> · <a href="mailto:contact@dublinemergencyelectrician.ie">contact@dublinemergencyelectrician.ie</a></span>
+        </div>
+    </div>
+    <p class="copyright">© 2026 Emergency Electrician Dublin</p>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
